@@ -1,0 +1,53 @@
+.dec
+{
+    background: rgb(227,192,255);
+background: linear-gradient(90deg, rgba(227,192,255,0.3189425428374475) 100%, rgba(214,198,199,1) 100%);
+}
+.g
+{
+   background-color:#2A2C2B;
+   padding-bottom: 10px;
+}
+.l
+{
+    color:blueviolet;
+    font-family: cursive;
+    font-weight: 900;
+}
+.g{
+    padding-bottom: 7px;
+}
+.u
+{
+    font-family: cursive;
+    font-weight: 600;
+    padding: 5px;
+}
+.t2
+{
+    background: rgb(246,5,5);
+background: linear-gradient(90deg, rgba(246,5,5,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+}
+.t1
+{
+    background: rgb(6,5,246);
+    background: linear-gradient(90deg, rgba(6,5,246,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+}
+.t3
+{
+    background: rgb(102,246,5);
+    background: linear-gradient(90deg, rgba(102,246,5,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+}
+.t4
+{
+    
+    background: rgb(255,173,89);
+    background: linear-gradient(90deg, rgba(255,173,89,0.6634803579634979) 0%, rgba(214,198,199,1) 100%);
+}
+@media screen and (max-width:580px)
+{
+    .v
+    {
+        margin-left: 14px;
+    }
+};

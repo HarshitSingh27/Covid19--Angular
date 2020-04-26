@@ -1,0 +1,122 @@
+<div class="row q">
+    <div class="col lg-3 sm-12 mx-5px">
+    <div class="card col p-5 t1">
+        <div class="ui statistic">
+            <div class="label">
+                <h3 class="blue animated infinite pulse">Confirmed</h3>
+            </div>
+            <div class="value a">
+                {{totalConfirmed}}
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="col lg-3 sm-12">
+    <div class="card col p-5  t3">
+        <div class="ui statistic">
+            <div class="label">
+                <h3 class="green animated infinite pulse">Recovered</h3>
+            </div>
+            <div class="value b">
+                {{totalRecovered}}
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    <div class="col lg-3 sm-12">
+    <div class="card col p-5  t2 ">
+        <div class="ui statistic">
+            <div class="label">
+                <h3 class="red  animated infinite pulse">Deaths</h3>
+            </div>
+            <div class="value c">
+                {{totalDeaths}}
+            </div>
+        </div>
+    </div>
+    </div>
+
+<div class="col lg-3 sm-12">
+
+    <div class="card col p-5 t4">
+        <div class="ui statistic">
+            <div class="label">
+                <h3 class="orange  animated infinite pulse">Active</h3>
+            </div>
+            <div class="value d">
+                {{totalActive}}
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<style>
+    .red
+    {
+        color:red;
+        font-family: cursive;
+        font-weight: 900;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+    
+    }
+    .blue
+    {
+        color:blue;
+        font-family: cursive;
+        font-weight: 900;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+    }
+    .green
+    {
+        color:green;
+        font-family: cursive;
+        font-weight: 900;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+    }
+    .orange
+    {
+        color: #ff8c00;
+        font-family: cursive;
+        font-weight: 900;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+    }
+    .t1,.t2,.t3,.t4
+    {
+       background-color: #2a2b2c;
+    }
+     
+    .card .col .p-3 .m-3
+    {
+        display: inline-block;
+    }
+.c
+{
+    background: rgb(246,5,5);
+background: linear-gradient(90deg, rgba(246,5,5,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+
+}
+.a
+{
+    background: rgb(6,5,246);
+    background: linear-gradient(90deg, rgba(6,5,246,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+}
+.b
+{
+    background: rgb(102,246,5);
+    background: linear-gradient(90deg, rgba(102,246,5,0.7559173327534139) 0%, rgba(214,198,199,1) 100%);
+}
+.d
+{
+    background: rgb(255,173,89);
+background: linear-gradient(90deg, rgba(255,173,89,0.6634803579634979) 0%, rgba(214,198,199,1) 100%);
+}
+</style>

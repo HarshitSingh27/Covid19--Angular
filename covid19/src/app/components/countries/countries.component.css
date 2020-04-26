@@ -1,0 +1,45 @@
+.dec,.dec1
+{
+    background-color: #2A2C2B;
+}
+.dec,.wh{
+    color: blueviolet;
+    font-family:cursive;
+}
+.wh2
+{   font-family: cursive;
+    color: blueviolet;
+}
+.l
+{
+    color:blueviolet;
+    font-family: cursive;
+    font-weight: 900;
+    padding: 20px;
+}
+.cont
+{
+    font-family: cursive;
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 2rem;
+    background-color: #2A2C2B;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+}
+.myclass{
+    bottom: 0;    
+}
+.l,.bgg{
+    background-color: #2A2C2B;
+}
+.wh
+{
+    color:white;
+}
+.dec1
+{
+    color: blueviolet;
+}
