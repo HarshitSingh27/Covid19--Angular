@@ -1,0 +1,68 @@
+.bodybg-color
+{
+    background-color: #2a2b2c;
+}
+.cover
+{
+    margin-bottom: 5px;
+}
+h1
+{  
+    text-align: center;
+    color: blueviolet;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    background-color:#2a2b2c;
+    padding: 10px;
+    margin-bottom: 1px;
+    margin-top: 0;
+    margin-right: 0%;
+    margin-left: 0%;
+    
+}
+#users {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  
+  #users td {
+    border: 1px solid blueviolet;
+    padding: 8px;
+  }
+  #users th
+  {
+    border: 1px solid blueviolet;
+    padding: 8px;
+    color: #EFDBF7;
+  }
+  
+  #users tr
+  {
+      background-color: #2a2b2c;
+  }
+  
+  #users tr:hover {background-color:black;
+
+}
+  
+  #users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color:purple;
+    font-weight: 800;
+    font-size: larger;
+  }
+  .data
+  {
+      color: #EFDBF7 ;
+  }
+  .data :hover
+  {
+      color:#2a2b2c;
+  }

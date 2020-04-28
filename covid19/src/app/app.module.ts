@@ -11,6 +11,7 @@ import { DashboardCardComponent } from './components/dashboard-card/dashboard-ca
 import { GoogleChartsModule } from 'angular-google-charts';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InfoComponent } from './components/info/info.component';
+import { Home2Component } from './components/home2/home2.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { InfoComponent } from './components/info/info.component';
     HomeComponent,
     CountriesComponent,
     DashboardCardComponent,
-    InfoComponent
+    InfoComponent,
+    Home2Component
   ],
   imports: [
     BrowserModule,

@@ -117,6 +117,14 @@
               "devServerTarget": "covid19:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/covid19",
+            "netlifyToken": "dd6c33e93ce9b6c6767020c611071b8df972b80712a17acf1b3641e9db38121b",
+            "siteId": "e6f3ce46-db27-4f51-9587-3b153092201a"
+          }
         }
       }
     }

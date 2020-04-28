@@ -1,0 +1,14 @@
+
+<table id="users" class="cover">
+    <tr>
+        <th *ngFor="let col of columns">
+            {{col}}
+        </th>
+    </tr>
+    <tr *ngFor="let user of users">
+        <td class="data" *ngFor="let col of index">
+            {{user[col]}}
+        </td>
+    </tr>
+</table>
+
