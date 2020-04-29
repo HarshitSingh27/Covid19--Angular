@@ -6,7 +6,27 @@
 {
     margin-bottom: 5px;
 }
-h1
+.bg{
+    background-color: #2a2b2c;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+h1{
+    color: purple;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Pacifico',cursive;
+}   
+ h2{
+    color: purple;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Pacifico',cursive;
+}   
+ 
+/* h1
 {  
     text-align: center;
     color: blueviolet;
@@ -20,7 +40,7 @@ h1
     margin-right: 0%;
     margin-left: 0%;
     
-}
+} */
 #users {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -61,6 +81,7 @@ h1
   .data
   {
       color: #EFDBF7 ;
+      font-family: cursive;
   }
   .data :hover
   {
