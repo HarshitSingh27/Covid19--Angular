@@ -50,7 +50,7 @@ export class DataServiceService {
     var date= new Date();
     // console.log(date);
     var month=("0"+(date.getMonth()+1)).slice(-2);
-    var day=date.getUTCDate()-1;
+    var day=("0"+(date.getUTCDate()-1)).slice(-2);
     console.log(day)
     
     return this.http.get(this.globalDataUrl+month+'-'+day+'-'+date.getFullYear()+'.csv', { responseType: 'text' }).pipe(
