@@ -1,0 +1,48 @@
+<div class="container-fluid">
+    <div class="container-fluid">
+     <div class="row">
+         <div class="col-12 ">
+     <table id="users" class="table-responsive-sm">
+         <tr>
+             <th *ngFor="let col of columns">
+                 {{col}}
+             </th>
+         </tr>
+         <tr *ngFor="let user of district" >
+             <td class="data" *ngFor="let col of index">
+                 {{user[col]}}
+             </td>
+            
+ 
+         </tr>
+          
+     </table>
+     </div>
+     
+     <!-- <div class="col-2 x">
+         
+             <table id="users" class="table-responsive-sm"> 
+                 <tr><th>NewConfirmed</th></tr>
+                 <tr *ngFor="let user of district"><td>{{user.delta.confirmed}}</td></tr>
+             </table>
+     </div>
+         
+         <div class="col-2 x">
+             <table id="users" class="table-responsive-sm"> 
+                 <tr><th>NewConfirmed</th></tr>
+                 <tr *ngFor="let user of district"><td>{{user.delta.confirmed}}</td></tr>
+             </table>
+         </div>
+         <div class="col-2 x">
+             <table id="users" class="table-responsive-sm"> 
+                 <tr><th>NewConfirmed</th></tr>
+                 <tr *ngFor="let user of district"><td>{{user.delta.confirmed}}</td></tr>
+             </table>
+         </div>
+     </div> -->
+     </div>
+      
+      
+     
+     
+ 

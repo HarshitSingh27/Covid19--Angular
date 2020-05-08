@@ -2,9 +2,9 @@
 <div class="ui inverted dimmer" [class.active]='loading'>
   <div class="ui text loader">Loading</div>
 </div>
-<div class="bg">
-<div class="jumbotron bg-white text-center p-0 m-0 bg">
-  <h1 class="display-4 l animated bounceInDown slower">Corona Covid-19 Tracker Country Wise</h1>
+<div class="g">
+<div class="jumbotron bg-white text-center p-0 m-0 g ">
+  <h1 class="display-4 l g ">Corona Covid-19 Tracker Country Wise</h1>
   <hr>
 
   <div class="mx-auto">
@@ -22,7 +22,7 @@
 
       <div class="col">
 
-          <table class="table bgg">
+          <table id="users"class="table bgg">
               <thead>
                   <tr>
                       <th class="wh">Sno.</th>
@@ -35,7 +35,7 @@
                   <tr *ngFor='let cs of selectedCountryData; index as i '>
                       <td class="wh2">{{i+1}}-</td>
                       <td class="wh ">{{cs.date | date}}</td>
-                      <td class="wh2 animated infinite bounce slower">{{cs.cases}}</td>
+                      <td class="wh2">{{cs.cases}}</td>
                   </tr>
               </tbody>
           </table>

@@ -4,13 +4,15 @@ import { HomeComponent } from './components/home/home.component';
 import { CountriesComponent } from './components/countries/countries.component';
 import { InfoComponent } from './components/info/info.component';
 import { Home2Component } from './components/home2/home2.component';
+import { UpComponent } from './components/up/up.component';
 
 
 const routes: Routes = [
   {path : '' , component : HomeComponent},
   {path : 'countries' , component :CountriesComponent },
   {path:'info',component:InfoComponent},
-  {path:'IND',component:Home2Component}
+  {path:'IND',component:Home2Component},
+  {path:'up',component:UpComponent},
   
 ];
 

@@ -4,11 +4,13 @@ import { GlobalDataSummary } from 'src/app/models/global-data';
 import { DateWiseData } from 'src/app/models/date-wise-data';
 import { merge } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { ViewEncapsulation } from '@angular/compiler/src/compiler_facade_interface';
 
 @Component({
   selector: 'app-countries',
   templateUrl: './countries.component.html',
-  styleUrls: ['./countries.component.css']
+  styleUrls: ['./countries.component.css'],
+  
 })
 export class CountriesComponent implements OnInit {
 

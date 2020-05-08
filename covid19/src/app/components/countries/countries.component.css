@@ -1,45 +1,54 @@
-.dec,.dec1
+ .bgg
+ {
+    background: linear-gradient(-45deg, #23a6d5, #23d5ab,#23a6d5, #23d5ab, #23a6d5, #23d5ab,#23a6d5, #23d5ab);
+	background-size: 40000% 40000%;
+	animation: gradient 15s ease infinite;
+ }
+ .g
 {
-    background-color: #2A2C2B;
+    background: linear-gradient(-45deg,#2a2b2c,black,gray);
+	background-size: 40000% 40000%;
+	animation: gradient 15s ease infinite;
+   padding-bottom: 10px;
 }
-.dec,.wh{
-    color: blueviolet;
-    font-family:cursive;
-}
-.wh2
-{   font-family: cursive;
-    color: blueviolet;
-}
+#users tr:nth-child(odd){background-color: #8db2f6;}
+#users th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  #users td, #users th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    
+  }
+  #users tr:hover {background-color: #ddd;}
+  #users td{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+  }
 .l
 {
-    color:blueviolet;
-    font-family:'Pacifico',cursive;
+    
+    color: red;
     font-weight: 900;
-    padding: 20px;
 }
-.cont
-{
-    font-family: cursive;
-    font-weight: 600;
-    color: blueviolet;
-    font-size: 2rem;
-    background-color: #2A2C2B;
-    display: inline-block;
-    width: 100%;
-    padding: 15px;
+.g,.cont{
+    padding: 17px;
+}
+.cont,.dec,.dec1{
+    background: linear-gradient(-45deg,#2a2b2c,black,gray);
+	background-size: 40000% 40000%;
+    animation: gradient 15s ease infinite;
+    color:orangered;
     border-radius: 7px;
 }
-.myclass{
-    bottom: 0;    
-}
-.l,.bgg{
-    background-color: #2A2C2B;
-}
-.wh
-{
-    color:white;
-}
-.dec1
-{
-    color: blueviolet;
-}
+ .dec1
+ {
+     background-color:#2a2b2c
+ }

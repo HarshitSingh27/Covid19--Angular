@@ -2,9 +2,9 @@
 <div class="ui inverted dimmer" [class.active]='loading'>
     <div class="ui text loader">Loading</div>
 </div>
-
-<div class="jumbotron bg-white text-center p-0 m-0  ">
-    <h1 class="display-4 l g  animated bounceInDown slower">Corona Covid-19 Tracker</h1>
+<div class="g">
+<div class="jumbotron bg-dark text-center p-0 m-0 g ">
+    <h1 class="display-4 l g ">Corona Covid-19 Tracker</h1>
     <hr>
 
     <app-dashboard-card [totalConfirmed]='totalConfirmed' [totalActive]='totalActive' [totalRecovered]='totalRecovered' [totalDeaths]='totalDeaths'></app-dashboard-card>
@@ -56,4 +56,5 @@
             <google-chart [type]='chart.ColumnChart' style="width: 100%;" [options]='chart.options' [height]='chart.height' [data]='datatable'></google-chart>
         </div>
     </div>
+</div>
 </div>

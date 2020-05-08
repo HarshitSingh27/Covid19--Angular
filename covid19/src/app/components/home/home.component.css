@@ -5,13 +5,15 @@ background: linear-gradient(90deg, rgba(227,192,255,0.3189425428374475) 100%, rg
 }
 .g
 {
-   background-color:#2A2C2B;
+    background: linear-gradient(-45deg,#2a2b2c,black,gray);
+	background-size: 40000% 40000%;
+	animation: gradient 15s ease infinite;
    padding-bottom: 10px;
 }
 .l
 {
-    color:blueviolet;
-    font-family:'Pacifico',cursive;
+    
+    color: red;
     font-weight: 900;
 }
 .g{

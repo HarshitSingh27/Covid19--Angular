@@ -16,10 +16,21 @@
     </div>
 </nav> -->
 
-<div class="w3-bar w3-black">
-  <a routerLink='/' class="w3-bar-item w3-button btnn">Home</a>
-  <a routerLink='countries' class="w3-bar-item w3-button btnn">Countries</a>
-  <a routerLink='IND' class="w3-bar-item w3-button btnn">INDIA</a>
-  <a routerLink='info' class="w3-bar-item w3-button btnn">Info</a>
-
-</div> 
+<nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" routerLink="/"><img src="https://img.icons8.com/nolan/64/coronavirus.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active a" routerLink='/'>Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link a" routerLink="/countries">Countries</a>
+        <a class="nav-item nav-link a" routerLink="/IND">India</a>
+        <a class="nav-item nav-link a" routerLink="/up">UP</a>
+        <a class="nav-item nav-link a" routerLink="/info">Info</a>
+      </div>
+    </div>
+    
+  </nav>
+  
+ 

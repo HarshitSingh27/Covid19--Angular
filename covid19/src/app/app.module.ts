@@ -12,6 +12,7 @@ import { GoogleChartsModule } from 'angular-google-charts';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InfoComponent } from './components/info/info.component';
 import { Home2Component } from './components/home2/home2.component';
+import { UpComponent } from './components/up/up.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +21,8 @@ import { Home2Component } from './components/home2/home2.component';
     CountriesComponent,
     DashboardCardComponent,
     InfoComponent,
-    Home2Component
+    Home2Component,
+    UpComponent
   ],
   imports: [
     BrowserModule,

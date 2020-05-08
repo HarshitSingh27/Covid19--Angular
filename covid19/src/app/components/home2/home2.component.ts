@@ -10,8 +10,8 @@ import { statewise} from 'src/app/models/users';
 export class Home2Component implements OnInit {
 
   constructor( private rs:RestService) { }
-  columns=["Active","Confirmed","Deaths","Recovered","Last Updated","State","State Code"];
-  index=["active","confirmed","deaths","recovered","lastupdatedtime","state","statecode"];
+  columns=["State","Last Updated","Confirmed","Active","Recovered","Deaths"];
+  index=["state","lastupdatedtime","confirmed","active","recovered","deaths"];
   users:statewise[]=[];
 
   ngOnInit(): void {
